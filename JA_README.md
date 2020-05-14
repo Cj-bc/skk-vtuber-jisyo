@@ -45,7 +45,7 @@ $ make list
 ## テストを走らせる
 
 Makefileが正しく設定されているかのテストを走らせます。
-[dicts/](dicts/)以下の各ファイルについて。
+[dicts/](dicts/)以下の各ファイルについて:
 
 - make targetが存在するか
 - 'all' targetにそのファイルのmake targetが依存ファイルとして指定されているか
