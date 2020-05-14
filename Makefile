@@ -1,8 +1,8 @@
 # Makefile to generate vtuber.dict
 
-DICTS_DIR = "dicts"
-DIST = "dist/vtuber.dict"
-SED = "sed"
+DICTS_DIR = dicts
+DIST = dist/vtuber.dict
+SED = sed
 T =  # alias of ADD_TARGET
 ADD_TARGET = $(T)
 removeHeader = grep -v '^;;;.*'
