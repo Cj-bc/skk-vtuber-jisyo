@@ -1,6 +1,3 @@
-[English](README.md)
-
----
 
 # VTuber用SKK辞書
 
