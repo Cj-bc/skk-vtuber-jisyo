@@ -1,3 +1,4 @@
+![test runner](https://github.com/Cj-bc/skk-vtuber-jisyo/workflows/test%20runner/badge.svg?branch=master)
 
 # VTuber用SKK辞書
 
