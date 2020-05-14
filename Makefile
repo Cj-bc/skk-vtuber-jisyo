@@ -13,7 +13,7 @@ all: avatar20project kojin kamitsubaki hololive
 # Check if make target is available for all dictionaries
 test:
 	cd dicts; for f in *.vtuber.dict; do \
-		name=$${f/.vtuber.dict/}; \
+		name=$${f%.vtuber.dict}; \
 		grep "^$$name: header" ../Makefile >/dev/null || { \
 			echo "Make target for $$name is missing. Please Add." >&2 \
 			exit 1; \
